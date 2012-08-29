@@ -1,6 +1,6 @@
 """Suppressing exception context.
 
-
+See also <http://www.python.org/dev/peps/pep-0409/>.
 """
 
 

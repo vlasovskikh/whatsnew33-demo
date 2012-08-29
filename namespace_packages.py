@@ -12,6 +12,3 @@ class C:
 
 def f():
     pass
-
-print(C().__qualname__)
-#print(f.__qualname__)
