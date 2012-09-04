@@ -8,7 +8,6 @@ def f(d):
     try:
         return d['foo']
     except KeyError:
-        #from None
-        raise ValueError("foo dicts are not allowed")
+        raise ValueError("foo dicts are not allowed") from None
 
 f({'key1': 'value1'})

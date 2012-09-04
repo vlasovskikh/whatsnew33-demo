@@ -3,12 +3,12 @@
 See also <http://www.python.org/dev/peps/pep-0420/>.
 """
 
-from nspkg1 import m1, m2
+import pkg1.m1, pkg1.m2
 
-print(m1, m2)
+print(pkg1.m1, pkg1.m2)
 
-class C:
-    pass
 
-def f():
-    pass
+
+import nspkg1.m1, nspkg1.m2
+
+print(nspkg1.m1, nspkg1.m2)
